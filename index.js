@@ -15,5 +15,5 @@ function postComment() {
     'commenter': commenter,
   });
   
-  
+  commentsDiv.innerHTML += templateHTML;
 }
