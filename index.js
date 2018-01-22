@@ -5,4 +5,6 @@ function postComment() {
   var comment = document.getElementById('commentText').value;
   
   var commentTemplate = '<div class="comment"><p><%= comment %></p><p>Posted By: <span class="commenter"><%= commenter %></span></p></div>';
+  
+  var templateFn = _.template(commentTemplate);
 }
